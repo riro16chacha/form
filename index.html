@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="post">
+        <label for="name">Name</label>
+        <input type="text"name="name"placeholder="name">
+        <br>
+        <label for="name" >Name</label>
+        <input type="text" name="name" placeholder="name">
+        <br>
+        <label for="email" >Email</label>
+        <input type="email" name="email" placeholder="email">
+        <br>
+        <label for="password">password</label>
+        <input type="password" name="password" placeholder="password" minlength="8" required>
+        <br>
+        <fieldset  >
+            <legend>Referrer</legend>
+            <input type="radio" name="none" id="none" value="none" checked >
+            <label for="none">none</label> <br>
+            <input type="radio" name="TV" id="tv" value="TV">
+            <label for="none">TV</label> <br>
+            <input type="radio" name="radio" id="radio" value="radio" >
+            <label for="none">Radio</label> <br>
+        </fieldset>
+        <input type="checkbox" name="terms" id="terms"required >
+        <label for="terms">I accept the terms of service.</label> <br>
+        
+        <input type="button" value="Register">
+    
+    </form>
+</body>
+</html>
